@@ -1,7 +1,10 @@
+import React from "react";
+import Deposit from './Components/Deposit';
+
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Deposit />
     </div>
   );
 }
