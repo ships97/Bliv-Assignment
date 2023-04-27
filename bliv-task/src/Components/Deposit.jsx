@@ -12,14 +12,14 @@ const Deposit = () => {
             <img src={logo} alt="Logo" className="h-[40px] mx-3" />
             <img src={man_img} alt="User" className="w-[40px] h-[40px] mx-5" />
         </header>
-        <main className="border border-red-500 w-[336px] h-[660px] mx-auto mt-6 bg-[#10141B] rounded-md p-4">
-          <div className="border border-red-500 flex items-center mb-4">
+        <main className=" w-[336px] h-[660px] mx-auto mt-6 bg-[#10141B] rounded-md p-4">
+          <div className=" flex mb-4">
             <p className="text-white font-small text-[20px]">Top-Up Funds</p>
-            <div className="border border-red-500 bg-gradient-to-r from-[#7F34DE] via-[#0DA492] to-[#0DA492] h-[24] w-[77] mx-6 rounded-md">
-              <h2 className="text-white font-semibold text-md bg-clip-text text-transparent bg-gradient-to-r from-[#7F34DE] via-[#0DA492] to-[#0DA492]">Deposit</h2>
+            <div className=" bg-gradient-to-r from-[#7F34DE] via-[#0DA492] to-[#0DA492] h-[24] w-[77] mx-6 rounded-md">
+              <h2 className="text-white font-semibold text-md bg-clip-text text-transparent bg-gradient-to-r from-[#7F34DE] via-[#0DA492] to-[#0DA492] ">Deposit</h2>
             </div>
             <div className="bg-[#282B30] rounded-md">
-              <h3 className="font-semibold text-md text-[#4C515C]">Withdraw</h3>
+              <h3 className="font-semibold text-md text-[#4C515C] ">Withdraw</h3>
             </div>
           </div>
           <hr className="border-[#787777] border-opacity-90 mb-6" />
@@ -44,8 +44,8 @@ const Deposit = () => {
               <p className="text-[#AAAAAA] font-normal">Balance: 0.00</p>
             </div>
           </div>
-        <div className='w-[310.55] h-[47] border border-red-500 bg-[#323042]'>
-            <p className='text-white h-[30] font-medium text-[13px] mx-2'>The above deposited amount will be withdrawn in WETH and you can convert it later.</p>
+        <div className='w-[310.55] h-[47] bg-[#323042] rounded-md'>
+            <p className='text-white h-[30] font-medium text-[13px] mx-2 my-2'>The above deposited amount will be withdrawn in WETH and you can convert it later.</p>
         </div>
 
         <button className="bg-gradient-to-r from-[#7F34DE] via-[#0DA492] to-[#0DA492] w-full py-2 rounded-md text-white font-medium text-[18px] mt-6">Deposit</button>
